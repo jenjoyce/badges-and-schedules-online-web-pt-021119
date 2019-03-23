@@ -2,8 +2,9 @@ batch_badge_creator["Edsger", "Ada", "Charles", "ALan", "Grace", "Linus", "Matz"
   batch_badge_creator.each do |name|
   puts "Hello, my name is #{name}."
 
-
-
+assign_rooms[{:name => "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"}, {:room => "1", "2", "3", "4", "5", "6", "7"}]
+assign_rooms.each do
+  puts "Hello, #{assign_rooms[:name]}! You'll be assigned to room #{assign_rooms[:room]}!"
 
 
 
