@@ -6,7 +6,7 @@ assign_rooms[{:name => "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Ma
 assign_rooms.each do
   puts "Hello, #{assign_rooms[:name]}! You'll be assigned to room #{assign_rooms[:room]}!"
 
-
+printer
 
 
 
