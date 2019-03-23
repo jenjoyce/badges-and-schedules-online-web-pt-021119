@@ -1,3 +1,14 @@
+batch_badge_creator["Edsger", "Ada", "Charles", "ALan", "Grace", "Linus", "Matz"]
+  batch_badge_creator.each do |name|
+  puts "Hello, my name is #{name}."
+
+
+
+
+
+
+
+
 require 'spec_helper'
 
 describe 'conference_badges' do
